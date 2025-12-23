@@ -1,0 +1,12 @@
+[package]
+name = "dia05_trineo_automatizado"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dia05_trineo_automatizado"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]  # Importante para contratos Soroban
+
+[dependencies]
+soroban-sdk = "23"  # <-- versión actual aproximada, ajustá si hay otra

@@ -1,0 +1,11 @@
+[package]
+name = "dia15_corona_de_adviento"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]  # Importante para contratos Soroban
+
+[dependencies]
+soroban-sdk = {  version = "23", features = ["testutils"] }  

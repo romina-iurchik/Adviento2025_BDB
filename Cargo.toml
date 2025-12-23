@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "contracts/dia01_primer_regalo_de_navidad",
+    "contracts/dia02_arbol_digital",
+    "contracts/dia03_cartas_a_santa",
+    "contracts/dia04_tokens_de_jengibre",
+    "contracts/dia05_trineo_automatizado",
+    "contracts/dia06_lucces_navidenas",
+    "contracts/dia07_estrella_del_norte",
+    "contracts/dia08_elfos_trabajadores", 
+    "contracts/dia09_calcetines_magicos", 
+    "contracts/dia10_renos_voladores", 
+    "contracts/dia11_campanas_sonoras", 
+    "contracts/dia12_nieve_cristalina", 
+    "contracts/dia13_chocolate_caliente", 
+    "contracts/dia14_velas_brillantes", 
+    "contracts/dia15_corona_de_adviento", 
+    "contracts/dia16_muneco_de_nieve", "contracts/dia17_baston_de_caramelo",
+]
+resolver = "2"

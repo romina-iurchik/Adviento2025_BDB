@@ -1,0 +1,14 @@
+# Ignorar dependencias de Rust
+/target/
+/Cargo.lock
+
+# Ignorar archivos de configuración específicos del editor
+*.swp
+.idea/
+.vscode/
+
+# Ignorar archivos generados
+*.json
+*.log
+
+

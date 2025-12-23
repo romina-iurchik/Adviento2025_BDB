@@ -1,0 +1,11 @@
+[package]
+name = "dia01_primer_regalo_de_navidad"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dia01_primer_regalo_de_navidad"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[dependencies]

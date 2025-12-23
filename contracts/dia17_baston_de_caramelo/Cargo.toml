@@ -1,0 +1,12 @@
+[package]
+name = "dia17_baston_de_caramelo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]  # Importante para contratos Soroban
+
+[dependencies]
+soroban-sdk = {  version = "23", features = ["testutils"] }  
+

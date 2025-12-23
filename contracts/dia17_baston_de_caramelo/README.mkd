@@ -1,0 +1,41 @@
+# Bastón de Caramelo - Medio
+## 📖 Historia
+Los bastones de caramelo son dulces navideños clásicos. Cada bastón tiene un sabor, un peso en gramos, y puede estar envuelto o no. Aprendamos a usar Option<T> para representar datos que pueden o no existir!
+
+## 🎯 Concepto: Option<T> en Profundidad
+Lo que vas a aprender:
+- Usar Option<T> para datos opcionales
+- Combinar struct con campos opcionales
+- Trabajar con structs que tienen campos None
+¿Por qué esto importa?
+- Option<T> es fundamental en Rust y Soroban:
+- Datos que pueden no existir (email opcional de usuario)
+- Búsquedas que pueden no encontrar nada
+- Campos opcionales en configuraciones
+- Estados que pueden estar vacíos
+- Es más seguro que usar null porque el compilador te obliga a manejar ambos casos.
+
+## 💡 ¿Por qué esto importa para Soroban?
+En blockchain, Option<T> se usa para:
+Tokens que pueden o no tener metadata
+Propietarios que pueden no estar definidos
+Configuraciones opcionales de contratos
+Delegaciones que pueden no existir
+
+## ✅ Objetivos
+Completá la función para gestionar bastones de caramelo:
+
+* crear_baston(_env: Env, sabor: Symbol, peso: u32) -> Baston
+  - Crear un Baston con los valores dados
+  - sabor: sabor
+  - peso_gramos: peso
+  - envoltorio: None (sin envoltorio al inicio)
+### Ejemplos
+Entrada:
+``` Rust
+crear_baston(symbol_short!("menta"), 25)
+```
+Salida:
+``` Rust
+Baston { sabor: "menta", peso_gramos: 25, envoltorio: None }
+```
