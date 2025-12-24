@@ -15,6 +15,15 @@ members = [
     "contracts/dia13_chocolate_caliente", 
     "contracts/dia14_velas_brillantes", 
     "contracts/dia15_corona_de_adviento", 
-    "contracts/dia16_muneco_de_nieve", "contracts/dia17_baston_de_caramelo",
+    "contracts/dia16_muneco_de_nieve", 
+    "contracts/dia17_baston_de_caramelo", 
+    "contracts/dia18_taller_de_santa", 
+    "contracts/dia19_guirnaldas_festivas", 
+    "contracts/dia20_villancicos_digitales", 
+    "contracts/dia21_chimenea_acogedora", 
+    "contracts/dia22_regalo_sorpresa", 
+    "contracts/dia23_posada_navidena", 
+    "contracts/dia24_cena_de_nochebuena", 
+    "contracts/dia25_gran_final_stellar",
 ]
 resolver = "2"
