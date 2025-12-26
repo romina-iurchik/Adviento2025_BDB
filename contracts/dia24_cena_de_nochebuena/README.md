@@ -26,7 +26,7 @@ Implementá las funciones para gestionar la cena:
 * todos_listos() - Verifica si todos los platillos están listos
 * porciones_totales() - Calcula el total de porciones del menú
 * servir_cena() - Solo funciona si todos los platillos están listos
-Ejemplos
+### Ejemplos
 Entrada:
 ``` Rust
 agregar_platillo("pavo", 8)

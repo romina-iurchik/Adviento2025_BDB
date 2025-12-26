@@ -17,10 +17,10 @@ Lo que vas a aprender:
 
 ## 💡 ¿Por qué esto importa para Soroban?
 En blockchain, Option<T> se usa para:
-Tokens que pueden o no tener metadata
-Propietarios que pueden no estar definidos
-Configuraciones opcionales de contratos
-Delegaciones que pueden no existir
+- Tokens que pueden o no tener metadata
+- Propietarios que pueden no estar definidos
+- Configuraciones opcionales de contratos
+- Delegaciones que pueden no existir
 
 ## ✅ Objetivos
 Completá la función para gestionar bastones de caramelo:

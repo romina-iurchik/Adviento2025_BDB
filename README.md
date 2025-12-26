@@ -1,10 +1,15 @@
 # 🎄 Adviento Stellar 2025
 
-Bienvenido al **Calendario de Adviento Stellar 2025**, 25 días de retos de código con **Stellar + Soroban**, diseñados para aprender, practicar y divertirse programando contratos en Rust.
- 
-Este repositorio complementa la experiencia online del calendario en 👉 https://adviento2025.buendiabuilders.com/
+## 👉 https://adviento2025.buendiabuilders.com/
+
+25 días de retos de código con Stellar + Soroban, diseñados para aprender, practicar y divertirse programando contratos en Rust.
 
 ---
+
+Este repositorio presenta mi recorrido resolviendo los desafíos del calendario.
+Cada solución es el resultado de intentos, errores y aprendizaje continuo.
+
+Pueden existir enfoques más eficientes o mejoras posibles, ya que el objetivo principal fue aprender y avanzar reto a reto.
 
 ## 💡 ¿Qué es Adviento Stellar 2025?
 
@@ -62,12 +67,12 @@ adviento2025/
 ```
 
 ## 📦 Estructura de cada día
-
- - Cada carpeta diaXX_* contiene:
+Cada carpeta diaXX_* contiene:
  - Cargo.toml — crate independiente del día
+ - src/inicio.rs — esqueleto del contrato a completar
  - src/lib.rs — implementación del contrato
  - tests/ — tests de integración
- - README.mkd — descripción del reto y consignas
+ - README.md — descripción del reto y consignas
 
 ## 🦀 Requisitos
  * Rust estable (instalado vía rustup)
@@ -98,8 +103,15 @@ cargo test -p dia22_regalo_sorpresa
 
 ## 🎁 Objetivo del proyecto
 
-
 - [x] Practicar Rust aplicado a smart contracts
 - [x] Aprender Soroban y el ecosistema Stellar
 - [x] Fomentar el aprendizaje diario a través de pequeños retos
 - [x] Disfrutar el proceso 🚀🎄
+
+## 🙏 Agradecimientos
+
+Gracias a Buen Día Builders por crear y mantener el Adviento Stellar 2025.
+
+Esta iniciativa fue mucho más que 25 retos de código: representó un proceso constante de aprendizaje, prueba y error y mejora continua, acompañado por una comunidad que incentiva a seguir construyendo y aprendiendo.
+
+Gracias por el aporte al ecosistema Stellar + Soroban y por promover espacios de formación accesibles, desafiantes y enfocados en la práctica.
